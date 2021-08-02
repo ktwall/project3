@@ -6,6 +6,14 @@ Universal Styling
   src: url('../fonts/geosanslight.ttf') format('truetype');
 }
 
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-family: 'Geosans', sans-serif;
+  text-align: center;
+}
+
 h1 {
     display: inline-block;
     color: #001C70;
@@ -30,13 +38,6 @@ p {
 header
 ----------------------- */
 
-* {
-  margin: 0;
-  padding: 0;
-  border: 0;
-  font-family: 'Geosans', sans-serif;
-  text-align: center;
-}
 
 .container {
     max-width: 1025px;
@@ -78,6 +79,7 @@ nav a {
   color: #F2F5FF;
   background: #001C70;
   padding: 5px;
+  border-radius: 2px;
 }
 
 nav a:hover {
