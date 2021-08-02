@@ -17,7 +17,7 @@ Universal Styling
 h1 {
     display: inline-block;
     color: #001C70;
-    padding: 10px;
+    padding: 5px;
     font-size: 20px;
     font-weight: bold;
 }
@@ -48,7 +48,7 @@ header
 .logo {
   float: left;
   display: inline-block;
-  padding: 10px
+  padding: 5px 10px;
 }
 
 .topnav,
@@ -62,7 +62,7 @@ header
 }
 
 .topnav {
-    padding: 50px 0 50px 0
+    padding: 20px 0 40px 0;
 }
 
 header,
@@ -174,6 +174,27 @@ main {
     float: right;
 }
 
+.npb {
+    position: absolute;
+    top: 15px;
+    left: 0px;
+    animation-name: move;
+    animation-duration: 15s;
+    animation-fill-mode: forwards;
+    animation-delay: 1s;
+    animation-iteration-count: 1;
+    animation-timing-function: ease-in-out;
+}
+
+@keyframes move {
+  from {
+    transform: translatex(1200px);
+  }
+  to {
+    transform: translatex(1250px);
+  }
+}
+
 /*==========================
 
   Schedule Page Styling
@@ -214,4 +235,22 @@ main {
 .class-prep {
   font-weight: bold;
   padding: 10px;
+}
+
+.class-prep :hover {
+  color: #001C70;
+  background: #F2F5FF;
+}
+
+/*==========================
+
+  Contact Page Styling
+
+==========================*/
+
+.three-students {
+  width: 400px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  text-align: center;
+  display: inline-block;
 }
