@@ -111,6 +111,27 @@ nav a:active{
   display: inline-block;
   height: 200px;
   padding: 10px;
+  background-image: linear-gradient(#9CD2FF, #fff5cc);
+}
+
+.banner {
+  width: 700px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  text-align: center;
+  display: inline-block;
+  margin: 20px;
+}
+
+.header h2 {
+  margin: 10px;
+  text-decoration: underline;
+  text-decoration-color: #001c70;
+}
+
+.schedule figcaption {
+  font-size: 10px;
+  color: #9CD2FF;
+  font-weight: bold;
 }
 
 /*==========================
