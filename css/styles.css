@@ -36,6 +36,7 @@ p {
   font-size: 12px;
 }
 
+
 /*-----------------------
 header
 ----------------------- */
@@ -193,6 +194,10 @@ main {
     vertical-align: top;
     padding: 45px;
     float: right;
+}
+
+.container1 p:first-of-type {
+  font-weight: bold;
 }
 
 .npb {
