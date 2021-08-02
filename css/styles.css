@@ -23,7 +23,9 @@ h1 {
 }
 
 h2,
-h3 {
+h3,
+h4,
+h5 {
   color: #001C70;
   font-size: 20px;
 }
@@ -91,6 +93,24 @@ nav a:active{
   color: #001C70;
   background: #9CD2FF;
   font-weight: bold;
+}
+
+/*==========================
+
+  Home Page Styling
+
+==========================*/
+.header p {
+  font-weight: bold;
+  color: #9CD2FF;
+  font-size: 15px;
+  padding: 15px
+}
+
+.images {
+  display: inline-block;
+  height: 200px;
+  padding: 10px;
 }
 
 /*==========================
@@ -175,4 +195,23 @@ main {
 
 .header-schedule {
   padding: 5px;
+}
+
+.class-descriptions1, .class-descriptions2, .class-descriptions3{
+  width: 30%;
+  display: inline-block;
+  padding: 3px;
+  height: 120px;
+  vertical-align: top;
+}
+
+.classes {
+  background-color: #9CD2FF;
+  padding: 10px;
+  border-radius: 4px;
+}
+
+.class-prep {
+  font-weight: bold;
+  padding: 10px;
 }
