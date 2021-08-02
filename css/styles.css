@@ -1,0 +1,176 @@
+/*-----------------------
+Universal Styling
+----------------------- */
+@font-face{
+  font-family:'Geosans';
+  src: url('../fonts/geosanslight.ttf') format('truetype');
+}
+
+h1 {
+    display: inline-block;
+    color: #001C70;
+    padding: 10px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+h2,
+h3 {
+  color: #001C70;
+  font-size: 20px;
+}
+
+p {
+  color: #001C70;
+  padding: 5px;
+  font-size: 12px;
+}
+
+/*-----------------------
+header
+----------------------- */
+
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-family: 'Geosans', sans-serif;
+  text-align: center;
+}
+
+.container {
+    max-width: 1025px;
+}
+
+.logo {
+  float: left;
+  display: inline-block;
+  padding: 10px
+}
+
+.topnav,
+.footer {
+    float: center;
+    display: block;
+    text-align: center;
+    margin: 10px auto;
+    font-size: 20px;
+    color: navy;
+}
+
+.topnav {
+    padding: 50px 0 50px 0
+}
+
+header,
+footer {
+  text-align: center;
+  background: #fff5cc;
+  padding: 8px 0 8px 0;
+}
+
+nav ul li {
+  display: inline;
+}
+
+nav a {
+  text-decoration: none;
+  color: #F2F5FF;
+  background: #001C70;
+  padding: 5px;
+}
+
+nav a:hover {
+  color: #001C70;
+  background: #9CD2FF;
+}
+
+nav a:active{
+  color: #001C70;
+  background: #9CD2FF;
+  font-weight: bold;
+}
+
+/*==========================
+
+  About Page Styling
+
+==========================*/
+
+main {
+    min-height: 80vh;
+    margin-top: 50px;
+}
+
+.header-about {
+  margin-bottom: 20px;
+  width: 30%;
+}
+
+.container {
+    max-width: 1025px;
+    margin: 0 auto;
+}
+
+.text-patti, .patti {
+    width: 45%;
+    display: inline-block;
+}
+
+.patti img {
+    width: 100%;
+    float: right;
+    margin: 5px;
+    max-width: 480px;
+    min-height: 225px;
+    vertical-align: top;
+}
+
+.text-patti {
+    vertical-align: top;
+    padding: 45px;
+    float: left;
+}
+
+.text-tara, .tara {
+    width: 45%;
+    display: inline-block;
+}
+
+.tara img {
+    width: 100%;
+    float: left;
+    margin: 5px;
+    max-width: 480px;
+    min-height: 225px;
+    vertical-align: top;
+}
+
+.text-tara {
+    vertical-align: top;
+    padding: 45px;
+    float: right;
+}
+
+/*==========================
+
+  Schedule Page Styling
+
+==========================*/
+
+.schedule-blurb {
+  color: #001C70;
+  max-width: 800px;
+  text-align: center;
+  display: inline-block;
+  font-weight: bold;
+  padding: 10px;
+}
+
+.schedule {
+  padding: 15px;
+}
+
+.header-schedule {
+  padding: 5px;
+}
