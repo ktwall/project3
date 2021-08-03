@@ -13,7 +13,14 @@
       text-align: center;
       margin: 10px;
       font-size: 20px;
-      color: navy;
+      color: #001C70;
+  }
+
+  header,
+  footer {
+    text-align: center;
+    background: #fff5cc;
+    padding: 8px 0 8px 0;
   }
 
   nav ul li {
@@ -22,18 +29,24 @@
 
   nav a {
     text-decoration: none;
-    color: navy;
-    background: lightblue;
-    font-weight: bold;
+    color: #F2F5FF;
+    background: #001C70;
     padding: 5px;
+    border-radius: 2px;
   }
 
   nav a:hover {
-    color: yellow;
+    color: #001C70;
+    background: #9CD2FF;
+  }
+
+  nav a:active{
+    color: #001C70;
+    background: #9CD2FF;
+    font-weight: bold;
   }
 
   body {
-      background-color: lightyellow;
       max-width: 1200px;
       padding: 15px;
       display: block;

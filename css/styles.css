@@ -348,6 +348,12 @@ span.lb-caption {
   background: #F2F5FF;
 }
 
+.schedule {
+  max-width: 1000px;
+  margin: 10px;
+  display: block;
+  margin: 0 auto;
+}
 
 /*==========================
 
@@ -383,16 +389,9 @@ span.lb-caption {
   max-width: 900px;
   margin: 0 auto;
   text-align: center;
-  color: navy;
+  color: #001C70;
   font-family:'Geosans', sans-serif;
   font-size: 12px;
-}
-
-.schedule {
-  max-width: 1000px;
-  margin: 10px;
-  display: block;
-  margin: 0 auto;
 }
 
 form {
