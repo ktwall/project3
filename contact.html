@@ -46,16 +46,55 @@
     </header>
 
     <main>
-        <div class="container">
-          <div class="header-contact">
-            <h1>Contact Us</h1>
-          </div>
-          <div class="three-students">
-              <img src="images/threestudents.png" alt="preschool gymnastics balance beam" title="preschool gymnastics balance beam" height="350"/>
-              <img src="images/bridges.png" alt="preschool gymnastics bridges" title="preschool gymnastics bridges" height="350"/>
-              <p>Please find the contact form below. </p>
-          </div>
+        <div class="container2">
+          <h1>Contact Us</h1>
 
+          <p>Please fill out the form below and Ms. Patti will be in contact with you shortly!</p>
+          <p>In addition, Ms. Patti can also be contacted via text at (561) 315-6338!</p>
+          <form class="contact-form" id="test_form" name="test_form" method="POST" action="form.php" onsubmit="return validateForm(this)">
+
+
+              <div class="first-name input-section">
+                <label for="firstname" class="label_input_wrap">First Name:
+                </label>
+                <input type="text" name="req_firstname" id="firstname" placeholder="First Name" />
+              </div>
+
+              <div class="last-name input-section">
+                <label for="lastname" class="label_input_wrap">Last Name:
+                </label>
+                <input type="text" name="req_lastname" id="lastname" placeholder="Last Name" />
+              </div>
+
+              <div class="email input-section">
+                <label for="email" class="label_input_wrap">Email:
+                </label>
+                <input type="email" name="req_email" id="email" placeholder="Email" />
+              </div>
+
+              <div class="telephone input-section">
+                <label for="telephone" class="label_input_wrap">Telphone:
+                </label>
+                <input type="tel" name="req_telephone" id="telephone" placeholder="Phone Number" />
+              </div>
+
+              <div class="comments input-section">
+                <label for="comments" class="label_input_wrap">Comments:
+                </label>
+                <textarea name="req_comments" id="comments" cols="35" rows="5" placeholder="Your Comment Goes Here"></textarea>
+              </div>
+
+              <div class="submit input-section">
+                  <input type="submit" value="Send me a message!"/>
+              </div>
+
+          </form>
+        </div>
+
+        <div class="three-students">
+            <img src="images/threestudents.png" alt="preschool gymnastics balance beam" title="preschool gymnastics balance beam" height="350"/>
+            <img src="images/bridges.png" alt="preschool gymnastics bridges" title="preschool gymnastics bridges" height="350"/>
+        </div>
 
     </main>
 
