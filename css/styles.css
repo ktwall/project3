@@ -36,15 +36,15 @@ p {
   font-size: 12px;
 }
 
+.container {
+    max-width: 1025px;
+    margin: 0 auto;
+}
 
 /*-----------------------
 header
 ----------------------- */
 
-
-.container {
-    max-width: 1025px;
-}
 
 .logo {
   float: left;
@@ -96,16 +96,31 @@ nav a:active{
   font-weight: bold;
 }
 
+footer {
+  margin: 10px;
+}
+
+
 /*==========================
 
   Home Page Styling
 
 ==========================*/
-.header p {
+.header h2 {
   font-weight: bold;
   color: #9CD2FF;
-  font-size: 15px;
-  padding: 15px
+  font-size: 20px;
+  padding: 10px;
+  margin: 5px;
+  text-decoration: underline;
+  text-decoration-color: #9CD2FF;
+}
+
+.header {
+    outline: 2px solid #fff5cc;
+    width: 700px;
+    text-align: center;
+    display: inline-block;
 }
 
 .images {
@@ -121,12 +136,6 @@ nav a:active{
   text-align: center;
   display: inline-block;
   margin: 20px;
-}
-
-.header h2 {
-  margin: 10px;
-  text-decoration: underline;
-  text-decoration-color: #001c70;
 }
 
 .schedule figcaption {
@@ -149,12 +158,10 @@ main {
 .header-about {
   margin-bottom: 20px;
   width: 30%;
+  text-align: center;
+  display: inline-block;
 }
 
-.container {
-    max-width: 1025px;
-    margin: 0 auto;
-}
 
 .text-patti, .patti {
     width: 45%;
@@ -163,10 +170,10 @@ main {
 
 .patti img {
     width: 100%;
-    float: right;
+    float: right 70px;
     margin: 5px;
-    max-width: 480px;
-    min-height: 225px;
+    max-width: 250px;
+    min-height: 100px;
     vertical-align: top;
 }
 
@@ -183,10 +190,10 @@ main {
 
 .tara img {
     width: 100%;
-    float: left;
+    float: left 70px;
     margin: 5px;
-    max-width: 480px;
-    min-height: 225px;
+    max-width: 250px;
+    min-height: 100px;
     vertical-align: top;
 }
 
@@ -268,15 +275,21 @@ main {
   background: #F2F5FF;
 }
 
+
 /*==========================
 
   Contact Page Styling
 
 ==========================*/
 
-.three-students {
-  width: 400px;
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+.three-students img {
+  height: 250px;
   text-align: center;
   display: inline-block;
+  transition: 2s;
+}
+
+.three-students img:hover {
+  height: 260px;
+  transition: 2s;
 }
