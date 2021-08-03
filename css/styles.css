@@ -117,7 +117,7 @@ footer {
 }
 
 .header {
-    outline: 2px solid #fff5cc;
+    outline: 3px solid #fff5cc;
     width: 700px;
     text-align: center;
     display: inline-block;
@@ -144,6 +144,21 @@ footer {
   font-weight: bold;
 }
 
+.class-rules {
+  width: 300px;
+  background: #fff5cc;
+  margin: 10px;
+  outline: 3px solid #9CD2FF;
+  font-weight: bold;
+  display: inline-block;
+  padding: 10px;
+}
+
+.class-rules h3 {
+  text-decoration: underline;
+  text-decoration-color: #9CD2FF;
+}
+
 /*==========================
 
   About Page Styling
@@ -157,10 +172,23 @@ main {
 
 .header-about {
   margin-bottom: 20px;
-  width: 30%;
+  width: 70%;
   text-align: center;
   display: inline-block;
 }
+
+.header-about h1 {
+  text-decoration: underline;
+}
+
+
+.header-about p {
+  font-size: 15px;
+  font-weight: bold;
+  width: 700px;
+  background: #F2F5FF;
+}
+
 
 
 .text-patti, .patti {
@@ -170,18 +198,20 @@ main {
 
 .patti img {
     width: 100%;
-    float: right 70px;
-    margin: 5px;
+    float: right;
+    margin: 15px;
     max-width: 250px;
     min-height: 100px;
     vertical-align: top;
+    outline: 3px solid #F2F5FF;
 }
 
 .text-patti {
     vertical-align: top;
-    padding: 45px;
-    float: left;
+    padding: 10px;
+    float: right;
 }
+
 
 .text-tara, .tara {
     width: 45%;
@@ -190,17 +220,48 @@ main {
 
 .tara img {
     width: 100%;
-    float: left 70px;
-    margin: 5px;
+    float: left;
+    margin: 15px;
     max-width: 250px;
     min-height: 100px;
     vertical-align: top;
+    outline: 3px solid #F2F5FF;
 }
 
 .text-tara {
     vertical-align: top;
-    padding: 45px;
-    float: right;
+    padding: 10px;
+    float: left;
+}
+
+.text-patti,
+.text-tara {
+  width: 300px;
+  background: #fff5cc;
+  margin: 10px;
+  outline: 3px solid #9CD2FF;
+}
+
+.text-patti h2,
+.text-tara h3 {
+  text-decoration: underline;
+}
+
+p {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-size: 15px;
+}
+
+
+section.body {
+    max-width: 700px;
+    display: inline-block;
+    margin: 0 auto;
+    align-items: center;
 }
 
 .container1 p:first-of-type {
@@ -226,6 +287,19 @@ main {
   to {
     transform: translatex(1250px);
   }
+}
+
+
+.about-images {
+  display: inline-block;
+  height: 225px;
+  margin: 20px;
+}
+
+span.lb-caption {
+    font-size: 15px !important;
+    color: white;
+    font-family:'Geosans';
 }
 
 /*==========================
