@@ -71,7 +71,7 @@ header
   }
 
 header {
-  height: 115px;
+  height: 105px;
 }
 
 header,
@@ -108,6 +108,13 @@ footer {
   margin: 10px;
 }
 
+.social-media {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  background: none !important;
+  color: #001C70;
+}
 
 /*==========================
 
@@ -299,6 +306,7 @@ section.body {
   font-weight: bold;
 }
 
+
 .npb {
     position: absolute;
     top: 15px;
@@ -464,4 +472,9 @@ form {
 .three-students img:hover {
   filter: grayscale(1);
   transition: 2s;
+}
+
+.icons {
+  color: #001C70;
+  margin: 20px;
 }
